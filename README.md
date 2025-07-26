@@ -2,7 +2,7 @@
 
 ## For all those peolple who could afford the subcriptions based ai model or couldn't get a girlfriend in real life (just kidding, this is just my attempt to replicate a high end girlfriend simulator in less resources)
 
-### Drawbacks :- vey slow in respose due heavy reliance on cpu and absence of gpu
+### Drawbacks :- vey slow in response and processing due heavy reliance on cpu and absence of gpu
 
 Lily AI is a English-speaking emotional girlfriend simulator that uses your voice input to generate emotionally rich voice responses, synced with corresponding video animations. It combines STT, a lightweight LLM, emotional TTS, and synchronized multimedia for a fully immersive AI interaction.
 
