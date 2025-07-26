@@ -131,7 +131,7 @@ rich==14.0.0
 rpds-py==0.26.0
 safetensors==0.5.3
 scikit-learn==1.7.1
-scipy==1.16.0
+scipy==1.10.1
 shellingham==1.5.4
 six==1.17.0
 smart_open==7.3.0.post1
