@@ -56,7 +56,7 @@ Lily AI is a English-speaking emotional girlfriend simulator that uses your voic
 
 ## 🚀 How It Works
 
-1. User clicks the **Mic** button to start recording.
+1. User clicks the **Mic** button to start recording and clicks it again to stop recording.
 2. Audio is sent to **STT** which transcribes the speech.
 3. The transcription is passed to the **LLM**, which Generates a emotional response.
 4. The **TTS module** converts the response into audio with matching emotional tone.
