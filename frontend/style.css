@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+#loading-screen {
+  position: fixed;
+  inset: 0;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0; /* Ensure videos are visible */
+  background: black; /* Add a background color for contrast */
+}
+
+.bg-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  opacity: 0;
+  /* transition: opacity 1s ease-in-out; */
+  border: 1px solid red; /* Temporary border for debugging */
+}
+
+.bg-video.active {
+  opacity: 1;
+}
+
+.overlay {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#mic-button {
+  background: crimson;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255,0,0,0.5);
+}
+
+.transcript-box {
+  background: rgba(0,0,0,0.7);
+  padding: 15px 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  max-width: 70%;
+}

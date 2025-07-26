@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI GF</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- 🌀 Loading Screen -->
+  <div id="loading-screen">
+    <h2>AI is loading...</h2>
+  </div>
+
+  <!-- 🎥 Background Videos -->
+  <div class="video-container">
+    <video id="video1" class="bg-video active" autoplay loop>
+      <source src="videos/default.mp4" type="video/mp4" />
+        browser not supported
+    </video>
+
+    <video id="video2" class="bg-video" autoplay loop>
+      <source src="videos/default.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- 🎤 AI UI Overlay -->
+  <div class="overlay">
+    <div class="transcript-box" id="transcript">🎙️ please speak something</div>
+    <button id="mic-button" aria-label="Mic Button"><i class="fas fa-microphone"></i></button>
+  </div>
+
+  <!-- 🚀 Load Script -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
