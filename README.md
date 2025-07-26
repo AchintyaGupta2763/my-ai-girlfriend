@@ -1,6 +1,6 @@
 # Lily AI – An Online Girlfriend
 
-## For all those peolple who could afford the subcriptions based ai model or couldn't get a girlfriend in real life (just kidding, this is just my attempt to replicate a high end girlfriend simulator in less resources)
+## For all those people who could afford the subscriptions based ai model or couldn't get a girlfriend in real life (just kidding, this is just my attempt to replicate a high end girlfriend simulator in less resources)
 
 ### Drawbacks :- vey slow in response and processing due heavy reliance on cpu and absence of gpu
 
@@ -28,7 +28,7 @@ Lily AI is a English-speaking emotional girlfriend simulator that uses your voic
 | **Backend** | FastAPI (Python)              |
 | **STT**     | OpenAI Whisper Base Model     |
 | **LLM**     | deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B trained on custom romatic dataset |
-| **TTS**     | pretrained and finetuned tts_models/multilingual/multi-dataset/xtts_v2 in combination with basic sentiment analysis model |
+| **TTS**     | pretrained and finetuned tts_models/multilingual/multi-dataset/xtts_v2 in combination with basic sentiment analysis model and female voice cloning through sample audio|
 | **Video**   | HTML5 Video + JS Control      |
 
 ---
@@ -59,7 +59,7 @@ Lily AI is a English-speaking emotional girlfriend simulator that uses your voic
 1. User clicks the **Mic** button to start recording and clicks it again to stop recording.
 2. Audio is sent to **STT** which transcribes the speech.
 3. The transcription is passed to the **LLM**, which Generates a emotional response.
-4. The **TTS module** converts the response into audio with matching emotional tone.
+4. The **TTS module** converts the response into audio with matching emotional tone as well as perform female voice cloning through sample audio.
 5. The **frontend** switches the video based on detected emotion and plays both the video and audio **synchronously**.
 6. When the audio ends, the video resets to a default idle state.
 
