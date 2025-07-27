@@ -20,8 +20,7 @@ Lily AI is a English-speaking emotional girlfriend simulator that uses your voic
 
 ---
 
-![working_sample](https://raw.githubusercontent.com/AchintyaGupta2763/my-ai-girlfriend/blob/main/LilyAI%20low.mp4)
-
+https://github.com/user-attachments/assets/df088bdd-8558-4e78-aeca-7bd72dcd531a
 
 ---
 ## 🛠️ Tech Stack
