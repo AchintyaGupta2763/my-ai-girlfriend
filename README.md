@@ -1,6 +1,6 @@
 # Lily AI – An Online Girlfriend
 
-## For all those people who could afford the subscriptions based ai model or couldn't get a girlfriend in real life (just kidding, this is just my attempt to replicate a high end girlfriend simulator in less resources)
+## For all those people who couldn't afford the subscriptions based ai model or couldn't get a girlfriend in real life (just kidding, this is just my attempt to replicate a high end girlfriend simulator in less resources)
 
 ### Drawbacks :- vey slow in response and processing due heavy reliance on cpu and absence of gpu
 
